@@ -1,0 +1,16 @@
+div
+{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
+#conteinerA
+{
+    margin-right: -4px;
+    background: red;
+}
+#conteinerB
+{
+    /*margin-left: -2px;*/
+    background:blue;
+}
