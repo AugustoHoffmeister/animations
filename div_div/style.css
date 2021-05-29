@@ -4,6 +4,10 @@ div
     width: 100px;
     display: inline-block;
 }
+p
+{
+    display: inline-block;
+}
 #conteinerA
 {
     margin-right: -4px;
