@@ -11,6 +11,7 @@
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    transition: 0.5s;
 }
 .sci 
 {
@@ -27,7 +28,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%,calc(-50% + 120px));
     font-size: 14vw;
     pointer-events: none;
     font-weight: 700;
@@ -59,6 +60,10 @@
     box-shadow:0 25px 35px rgba(0,0,0,0.1);
     transition: background 0.25s;
 }
+.js-tilt-glare
+{
+    border-radius: 10px;
+}
 .sci li a:hover.facebook
 {
     background: #1877f2;
@@ -83,4 +88,5 @@
 .sci li a:hover .fa
 {
     color: #fff;
+    transform: scale(1.5);
 }
